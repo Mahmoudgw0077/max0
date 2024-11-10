@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Spot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="log-container">
+    <h2>Login</h2>
+    <form id="Loginform">
+      <label for="Email">Email</label>
+      <input type="Email" id="Email" placeholder="Email" required>
+      <label for="Password">Password</label>
+      <input type="Password" id="Password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="errormessage"></p>
+  </div>
+
+  <header>
+    <h1>Welcome to the online store</h1>
+    <div class="cart">
+      <span>Basket</span> <span id="cart-count">0</span> Products
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+    <div class="product">
+      <h2>1 Project</h2>
+      <p>1 Short product description</p>
+      <button onclick="addtocart()">Add to cart</button>
+    </div>
+    <div class="product">
+      <h2>2 Project</h2>
+      <p>2 Short product description</p>
+      <button onclick="addtocart()">Add to cart</button>
+    </div>
+    <div class="product">
+      <h2>3 Project</h2>
+      <p>3 Short product description</p>
+      <button onclick="addtocart()">Add to cart</button>
+    </div>
+    </section>
+  </main>
+
+  
+  
+
+  <SCript src="script.js"></SCript>
+</body>
+</html>
